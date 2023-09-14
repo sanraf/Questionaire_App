@@ -1,0 +1,46 @@
+body html{
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 26%;
+    /* background-color: #022f45cc; */
+    background-color: #173e77;
+    width: 20%;
+    height: 100vh;
+    padding: 12px;
+}
+
+.nav-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: whitesmoke;
+}
+
+.logo__text {
+    
+    font-size: 1rem;
+    font-family: "Play", sans-serif;
+}
+.logo__text h4 {
+    margin: 1rem auto;
+    animation: neon 1000ms ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        /* text-shadow: 0 0 10px #009fefa8, 0 0 20px #009fefa8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914; */
+       color: #dddcd3;
+    }
+    50% {
+        /* text-shadow: 0 0 2px #00ff00, 0 0 5px #00ff00, 0 0 5px #00ff00, 0 0 5px #00ff00, 0 0 2px #00ff00, 4px 4px 2px #e2c65f; */
+        color: #1053e4;
+    }
+}
+
+
+.nav-button h3{
+    color: whitesmoke;
+}

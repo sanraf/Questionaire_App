@@ -1,0 +1,58 @@
+.view-datum__populated{
+    display: flex;
+    justify-content:space-around ;
+    width: 90%;
+    /* background-color: #00121c; */
+    border: 1px solid #00121c;
+    padding: 1px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+   
+}
+
+.question{
+    display: flex;
+    width: 100%;
+    padding: 10px 0px 10px 50px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    height: auto;
+    overflow:hidden;
+}
+
+
+
+.content-holder{
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    /* padding: 5px 5px 5px 20px; */
+    color: whitesmoke;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    /* */
+    background-color:  #012a3f ;
+}
+
+.eddit-delete{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 5px ;
+    gap: 12px;
+    background-color: rgb(1, 32, 49,0.85);
+
+}
+
+.eddit-delete .button{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+

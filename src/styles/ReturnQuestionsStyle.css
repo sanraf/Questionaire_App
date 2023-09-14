@@ -1,0 +1,86 @@
+
+.view-questionaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.view-questionaire__holder{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 18px;
+    /* padding: 10px; */
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color:  #012a3f ;
+}
+
+.questionaire-list{
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #002132;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00213275;
+    ;
+
+}
+
+.questionaire-list h3{
+   
+    white-space: normal
+
+}
+
+.radioButton{
+    display: flex;
+    margin: 0px 16px 10px 16px;
+    flex-direction: column;
+    /* justify-self: flex-start; */
+}
+
+.radioButton h5{
+    
+    margin-bottom: 8px;
+}
+
+.agree{
+    display: flex;
+    gap: 16px;
+}
+
+.agree h5{
+   position: relative;
+   top: -5px;
+}
+
+.disagree h5{
+    position: relative;
+    top: -5px;
+ }
+
+ .neutral h5{
+    position: relative;
+    top: -5px;
+ }
+
+.agree input{
+   
+    background-color: rgb(34, 82, 82);
+}
+
+
+.neutral{
+    display: flex;
+    gap: 16px;
+}
+
+.disagree{
+    display: flex;
+    gap: 16px;
+}

@@ -1,0 +1,21 @@
+
+.quetionaireWrapper{
+    
+    display: flex;
+    background: linear-gradient(270deg,hsla(200, 53%, 23%, 0.50) ,hsla(200, 53%, 23%, 0.50)),url('../assets/bck2.jpg');
+    background-repeat: no-repeat;
+    margin-left: auto;
+    background-size: cover;
+    
+}
+
+.quetionaireWrapper__holder{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
