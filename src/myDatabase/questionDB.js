@@ -1,15 +1,15 @@
 
+function questionDB() {
 
-function Data() {
     const getDataFromDB=()=>{
-        const dbData = localStorage.getItem('list');
+        const dbData = localStorage.getItem('questionaire');
         if(dbData){
            return JSON.parse(dbData);
         }else{
            return []
         }
       };
-  return ( getDataFromDB());
+  return (getDataFromDB())
 }
 
-export default Data;
+export default questionDB;

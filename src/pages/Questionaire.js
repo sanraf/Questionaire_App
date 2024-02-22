@@ -4,18 +4,16 @@ import '../styles/QuestionaireStyle.css';
 import React,{ useEffect, useState } from 'react';
 import DisplayList from '../components/DisplayList';
 import ReturnQuestions from '../components/ReturnQuestions';
-import Data from '../components/Data';
+import questionDB from '../myDatabase/questionDB';
 
 
 
 function Questionaire() {
 
-  const [datum,setDatum] = useState(Data());
-
   useEffect(()=>{
-    localStorage.setItem('list',JSON.stringify(Data()));
+    localStorage.setItem('list',JSON.stringify(questionDB()));
 
-},[Data()]);
+},[questionDB()]);
 
 
 
@@ -25,7 +23,7 @@ function Questionaire() {
         <Navbar/>
 
         <div className='quetionaireWrapper__holder'>
-          <ReturnQuestions datum={Data()}/>
+          <ReturnQuestions datum={questionDB()}/>
           <button  type='submit' >Submit</button>
       </div>
 

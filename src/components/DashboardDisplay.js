@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import questionLogo from '../assets/icons8-questions-64.png'
-import Data from '../components/Data';
+import questionDB from '../myDatabase/questionDB';
 
 
 function DashboardDisplay() {
@@ -17,7 +17,7 @@ function DashboardDisplay() {
         </div>
 
         <div>
-          <h2>{Data().length}</h2>
+          <h2>{questionDB().length}</h2>
         </div>
 
         <img src={questionLogo}/>
